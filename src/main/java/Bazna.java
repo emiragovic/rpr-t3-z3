@@ -1,7 +1,7 @@
 public class Bazna {
     public Izvedena atribut;
 
-    public int metoda(){
+    public int metoda() {
         return atribut.metoda();
     }
 }

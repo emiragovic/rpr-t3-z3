@@ -8,7 +8,7 @@ import java.util.Map;
 public class TestnaKlasa {
 
     @Test
-    void Test1(){
+    void Test1() {
         Map<String, String> mapa = Mockito.mock(Map.class);
 
         mapa.put("Emir", "Agović");
@@ -28,7 +28,7 @@ public class TestnaKlasa {
     }
 
     @Test
-    void Test2(){
+    void Test2() {
         Bazna b = new Bazna();
         b.atribut = Mockito.mock(Izvedena.class);
         Mockito.when(b.atribut.metoda()).thenReturn(2);

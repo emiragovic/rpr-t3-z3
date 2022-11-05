@@ -1,4 +1,6 @@
-public class Izvedena extends Bazna{
+public class Izvedena extends Bazna {
 
-    public int metoda(){return 1;}
+    public int metoda() {
+        return 1;
+    }
 }
